@@ -18,6 +18,7 @@ python3 -m http.server 4178 --directory dist
 
 - `dist/index.html`：个人资料、论文、项目、经历和联系邮箱。
 - `dist/styles.css`：排版、配色、桌面与移动端样式。
+- `dist/data/XingxingSong-CV.pdf`：首页 CV 入口对应的简历，点击后在新标签页打开。
 - `dist/assets/images/profile.png`：目前沿用 GitHub 公开头像，可直接替换为个人照片。
 - `dist/assets/images/`：论文插图与项目示意图；项目 SVG 为根据原主页内容绘制的结构示意，不是产品截图。
 - `dist/assets/fonts/`：本地 Lato 字体及其 OFL 许可，不依赖 Google Fonts 在线加载。
@@ -27,7 +28,7 @@ python3 -m http.server 4178 --directory dist
 
 个人经历沿用原主页中依据 2026 年 9 月简历整理的信息。预计结束或毕业日期已注明，后续应随经历变化更新。论文链接：<https://arxiv.org/abs/2605.29532>。
 
-原始简历 PDF 未放入站点或仓库。联系邮箱按简历原文保留。
+CV 入口使用用户提供的《宋星星_简历.pdf》，以 `dist/data/XingxingSong-CV.pdf` 原样发布。更新简历时替换该文件即可，链接保持不变。联系邮箱按简历原文保留。
 
 ## 素材与参考
 
