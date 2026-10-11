@@ -36,5 +36,6 @@ CV 入口使用用户提供的《宋星星_简历.pdf》，以 `dist/data/Xingxi
 - 头像：用户于 2026 年 10 月 11 日提供的图片。
 - GUIJudge 插图：[GUITestScape 论文 Figure 4](https://arxiv.org/html/2605.29532v1#S4.F4)。
 - SuperMuse 与 XHAUS 项目介绍：分别来自 [SuperMuse](https://github.com/heyxingxing/SuperMuse) 与 [XHAUS_FINAL](https://github.com/hareonna-hina/XHAUS_FINAL) 仓库。
-- SuperMuse、Mobile-Gym、XHAUS 生活助理、Agent Lab 配图：`dist/assets/images/*-figure.svg`，为本项目绘制的学术风机制示意图，不使用项目 Logo 或虚构产品截图。Agent Lab 的矩阵仅表达评估机制，不代表实验结果。
+- SuperMuse、Mobile-Gym、Agent Lab 配图：`dist/assets/images/*-figure.svg`，为本项目绘制的学术风机制示意图，不使用项目 Logo 或虚构产品截图。Agent Lab 的矩阵仅表达评估机制，不代表实验结果。
+- XHAUS 配图：用户提供的完整架构图，原样保存在 `dist/assets/images/xhaus-architecture.png`，点击配图可在新标签页查看原图。
 - `dist/class2408/` 是独立的原有页面，主页改版未修改此目录。
