@@ -35,6 +35,6 @@ CV 入口使用用户提供的《宋星星_简历.pdf》，以 `dist/data/Xingxi
 - 排版参考：Xianzhe Meng / Jon Barron，页脚保留链接致谢。
 - 头像：`heyxingxing` 的 GitHub 公开头像。
 - GUIJudge 插图：[GUITestScape 论文 Figure 4](https://arxiv.org/html/2605.29532v1#S4.F4)。
-- SuperMuse 与 XHAUS 项目介绍、Logo：分别来自 [SuperMuse](https://github.com/heyxingxing/SuperMuse) 与 [XHAUS_FINAL](https://github.com/hareonna-hina/XHAUS_FINAL) 仓库。
-- Mobile-Gym、生活助理、Agent Lab、餐厅仿真配图：本项目编写的 SVG 示意图。
+- SuperMuse 与 XHAUS 项目介绍：分别来自 [SuperMuse](https://github.com/heyxingxing/SuperMuse) 与 [XHAUS_FINAL](https://github.com/hareonna-hina/XHAUS_FINAL) 仓库。
+- SuperMuse、Mobile-Gym、XHAUS 生活助理、Agent Lab、餐厅仿真配图：本项目编写的 SVG 示意图，不使用项目 Logo。
 - `dist/class2408/` 是独立的原有页面，主页改版未修改此目录。
