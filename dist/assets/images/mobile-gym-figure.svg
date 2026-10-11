@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="340" viewBox="0 0 500 340" role="img" aria-labelledby="title">
+<title id="title">GUI agent training: app environments, actions, and process evaluation</title>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 8 5 1 9" fill="none" stroke="#41658a" stroke-width="1.8" stroke-linejoin="round"/></marker>
+  <marker id="feedback" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M1 1 8 5 1 9" fill="none" stroke="#3b8176" stroke-width="1.8" stroke-linejoin="round"/></marker>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #24384c; }
+    .label { font-size: 23px; font-weight: 600; text-anchor: middle; }
+    .small { font-size: 20px; text-anchor: middle; }
+    .line { fill: none; stroke: #41658a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .flow { fill: none; stroke: #41658a; stroke-width: 2.5; marker-end: url(#arrow); }
+  </style>
+</defs>
+<rect x="1" y="1" width="498" height="338" rx="10" fill="#fcfdff" stroke="#dce4ed" stroke-width="2"/>
+
+<!-- Three distinct phone states make the training loop visible. -->
+<g class="label"><text x="88" y="35">Environment</text><text x="250" y="35">Action</text><text x="412" y="35">Evaluation</text></g>
+<g fill="white" stroke="#3d526b" stroke-width="2.5">
+  <rect x="35" y="53" width="106" height="205" rx="15"/>
+  <rect x="197" y="53" width="106" height="205" rx="15"/>
+  <rect x="359" y="53" width="106" height="205" rx="15"/>
+</g>
+<g fill="#3d526b"><rect x="70" y="62" width="36" height="5" rx="2.5"/><rect x="232" y="62" width="36" height="5" rx="2.5"/><rect x="394" y="62" width="36" height="5" rx="2.5"/></g>
+<!-- App mosaic: deliberate, large symbols instead of illegible text. -->
+<rect x="44" y="79" width="88" height="169" rx="5" fill="#eef3fa"/>
+<g><rect x="52" y="89" width="32" height="32" rx="7" fill="#6a96cb"/><rect x="92" y="89" width="32" height="32" rx="7" fill="#71a697"/><rect x="52" y="132" width="32" height="32" rx="7" fill="#d4a462"/><rect x="92" y="132" width="32" height="32" rx="7" fill="#8e87b7"/><rect x="52" y="175" width="32" height="32" rx="7" fill="#77a5b9"/><rect x="92" y="175" width="32" height="32" rx="7" fill="#cc8d87"/></g>
+<g stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M60 97h16v16H60zM100 99h16m-16 6h11m-11 6h14M59 146l6 6 12-13M103 139v18m-6-9h13M60 187h16v12H60zM62 184h12M100 192l8-9 8 9m-13-3v11h10v-11"/></g>
+<rect x="64" y="224" width="49" height="5" rx="2.5" fill="#bdccdd"/>
+<!-- A selected action with a precise click annotation. -->
+<rect x="207" y="79" width="86" height="34" rx="4" fill="#edf3fb"/>
+<circle cx="223" cy="95" r="7" fill="#79a1ce"/><path d="M239 91h41m-41 8h29" stroke="#b2c4d9" stroke-width="4"/>
+<g stroke="#dce4ec" stroke-width="2"><path d="M211 127h78m-78 27h78m-78 27h78m-78 27h78"/></g>
+<rect x="210" y="139" width="80" height="32" rx="5" fill="#e4eefc" stroke="#3d77b6" stroke-width="2.5"/>
+<path d="M221 150h41m-41 9h28" stroke="#7f9fc4" stroke-width="4"/>
+<path d="m265 157 20 17-10 1-4 11Z" fill="#2e649e" stroke="white" stroke-width="2"/>
+<circle cx="264" cy="156" r="22" fill="none" stroke="#74a0d1" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="216" y="223" width="67" height="13" rx="6.5" fill="#d9e5f3"/>
+<!-- Process checks and an unnumbered evaluation trace. -->
+<circle cx="412" cy="109" r="24" fill="#e2f0ea"/><path d="m400 108 8 9 16-19" fill="none" stroke="#3b8176" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#e9f3ef"><circle cx="378" cy="156" r="8"/><circle cx="378" cy="181" r="8"/><circle cx="378" cy="206" r="8"/></g>
+<g stroke="#488b7e" stroke-width="2" fill="none"><path d="m374 156 3 3 5-6m-8 28 3 3 5-6m-8 28 3 3 5-6"/></g>
+<g fill="#abcbbb"><rect x="394" y="151" width="47" height="9" rx="4"/><rect x="394" y="176" width="40" height="9" rx="4"/><rect x="394" y="201" width="47" height="9" rx="4"/></g>
+<path class="flow" d="M150 156h35M312 156h35"/>
+<path d="M413 269v14H87v-14" fill="none" stroke="#92aaa1" stroke-width="2"/>
+<text x="250" y="319" class="label">38 apps · 566 tasks</text>
+
+</svg>
