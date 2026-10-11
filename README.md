@@ -19,7 +19,7 @@ python3 -m http.server 4178 --directory dist
 - `dist/index.html`：个人资料、论文、项目、经历和联系邮箱。
 - `dist/styles.css`：排版、配色、桌面与移动端样式。
 - `dist/data/XingxingSong-CV.pdf`：首页 CV 入口对应的简历，点击后在新标签页打开。
-- `dist/assets/images/profile.png`：目前沿用 GitHub 公开头像，可直接替换为个人照片。
+- `dist/assets/images/profile-20261011.png`：用户提供的个人头像原图。
 - `dist/assets/images/`：论文插图与项目示意图；项目 SVG 为根据原主页内容绘制的结构示意，不是产品截图。
 - `dist/assets/fonts/`：本地 Lato 字体及其 OFL 许可，不依赖 Google Fonts 在线加载。
 - `.github/workflows/pages.yml`：将 `dist/` 自动发布到 GitHub Pages。
@@ -33,8 +33,8 @@ CV 入口使用用户提供的《宋星星_简历.pdf》，以 `dist/data/Xingxi
 ## 素材与参考
 
 - 排版参考：Xianzhe Meng / Jon Barron，页脚保留链接致谢。
-- 头像：`heyxingxing` 的 GitHub 公开头像。
+- 头像：用户于 2026 年 10 月 11 日提供的图片。
 - GUIJudge 插图：[GUITestScape 论文 Figure 4](https://arxiv.org/html/2605.29532v1#S4.F4)。
 - SuperMuse 与 XHAUS 项目介绍：分别来自 [SuperMuse](https://github.com/heyxingxing/SuperMuse) 与 [XHAUS_FINAL](https://github.com/hareonna-hina/XHAUS_FINAL) 仓库。
-- SuperMuse、Mobile-Gym、XHAUS 生活助理、Agent Lab、餐厅仿真配图：本项目编写的 SVG 示意图，不使用项目 Logo。
+- SuperMuse、Mobile-Gym、XHAUS 生活助理、Agent Lab 配图：本项目编写的 SVG 示意图，不使用项目 Logo。
 - `dist/class2408/` 是独立的原有页面，主页改版未修改此目录。
