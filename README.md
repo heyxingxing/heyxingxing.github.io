@@ -2,7 +2,7 @@
 
 个人主页：<https://heyxingxing.github.io/>
 
-内容包括研究兴趣、GUITestScape 论文、GUI Agent 交互环境、实习与科研经历、教育背景和公开项目。
+参照 [Xianzhe Meng 的主页](https://xianzhemeng.github.io/) 重写的英文个人学术主页：800px 居中布局、Lato 字体、左侧简介与右侧头像、奖项列表和图文研究条目。内容来自原主页，包括研究兴趣、GUITestScape 论文、GUI Agent 交互环境、实习与科研经历、教育背景和公开项目。
 
 ## 本地预览
 
@@ -18,10 +18,21 @@ python3 -m http.server 4178 --directory dist
 
 - `dist/index.html`：个人资料、论文、项目、经历和联系邮箱。
 - `dist/styles.css`：排版、配色、桌面与移动端样式。
+- `dist/assets/images/profile.png`：目前沿用 GitHub 公开头像，可直接替换为个人照片。
+- `dist/assets/images/`：论文插图与项目示意图；项目 SVG 为根据原主页内容绘制的结构示意，不是产品截图。
+- `dist/assets/fonts/`：本地 Lato 字体及其 OFL 许可，不依赖 Google Fonts 在线加载。
 - `.github/workflows/pages.yml`：将 `dist/` 自动发布到 GitHub Pages。
 
 将更新推送到 `main` 后，GitHub Actions 自动部署。仓库 Settings → Pages 的 Source 应为 **GitHub Actions**。
 
-个人经历以 2026 年 9 月提供的简历为依据。预计结束或毕业日期已注明；更新经历时请同步修改页脚日期。论文链接：<https://arxiv.org/abs/2605.29532>。
+个人经历沿用原主页中依据 2026 年 9 月简历整理的信息。预计结束或毕业日期已注明，后续应随经历变化更新。论文链接：<https://arxiv.org/abs/2605.29532>。
 
 原始简历 PDF 未放入站点或仓库。联系邮箱按简历原文保留。
+
+## 素材与参考
+
+- 排版参考：Xianzhe Meng / Jon Barron，页脚保留链接致谢。
+- 头像：`heyxingxing` 的 GitHub 公开头像。
+- GUIJudge 插图：[GUITestScape 论文 Figure 4](https://arxiv.org/html/2605.29532v1#S4.F4)。
+- Mobile-Gym、生活助理、Agent Lab、餐厅仿真配图：本项目编写的 SVG 示意图。
+- `dist/class2408/` 是独立的原有页面，主页改版未修改此目录。
