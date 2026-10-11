@@ -75,6 +75,7 @@ h1 span { white-space: nowrap; }
 .work { display: grid; grid-template-columns: 282px 1fr; align-items: center; gap: 0; margin-top: 10px; }
 .work-image { display: block; padding: 16px; }
 .work-image img { width: 250px; }
+.work-image .project-logo { width: auto; height: 170px; object-fit: contain; margin: 0 auto; }
 .work-copy { min-width: 0; padding: 8px; }
 .work-copy h3 { margin-top: 14px; }
 .work-copy .authors { margin-top: 0; }
